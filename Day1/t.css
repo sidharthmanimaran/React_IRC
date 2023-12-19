@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color:paleturquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.container{
+    background-color:skyblue;
+    display: flex;
+    width: 30vw;
+    height: 50vh;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7%;
+}
+
+.inp-class{
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    width: 80%;
+    gap: 4rem;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0.9rem;
+}

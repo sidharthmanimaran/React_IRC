@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="t.css">
+</head>
+<body>
+    <h1 >REGISTRATION</h1>
+    <div class="container">
+    <form class="container">
+        <input type="text" placeholder="EMAIL" id="sidharth"class="inp-class">
+        <input type="password" placeholder="PASSWORD" id="@@@@" class="inp-class">
+        <input type="password" placeholder="RE PASSWORD" id="@@@@@" class="inp-class">
+        <input type="date" placeholder="DOB" class="inp-class">
+        <input type="text" placeholder="GENDER" class="inp-class" >
+        <input type="number" placeholder="Roll NO" class="inp-class">
+        <input type="submit" placeholder="REGISTRATION" class="inpsub-class"  onclick="register()">
+    </form>
+
+    </div>
+
+    <script>
+        function register()
+        {
+
+            let x=document.getElementById("@@@@").value;
+            let y=document.getElementById("@@@@@").value;
+            if(confirm("Willing to submit"))
+            if(x==y)
+            alert("successfully registered ");
+            else
+             alert("enter the correct password");
+             else 
+              alert("Not willing to submit")
+        }
+    </script>
+</body>
+</html>
