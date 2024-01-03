@@ -7,9 +7,6 @@
     padding-top: 20px;
     background-image:url(C:\Users\sidhu\Downloads\OneDrive\Documents\GitHub\React_IRC\event\myapp4\src\assets\images\l1.jpeg);
 }
-
-
-
 .header{
     display:flex;
     flex-direction: column;
@@ -19,28 +16,23 @@
     margin-top: 0;
     margin-bottom: 0;
 }
-
 .text{
     color:#3c009d;
     font-size:48px;
     font-weight: 700;
 }
-
 .underline{
     width:61px;
     height:6px;
     background:#3c009d;
     border-radius:9px;
 }
-
-
 .inputs{
     margin-top:55px;
     display: flex;
     flex-direction: column;
     gap:25px;
 }
-
 .input{
     display:flex;
     align-items: center;
@@ -50,12 +42,10 @@
     background: #b5b8b9ef;
     border-radius: 6px;
 }
-
 .input img{
     margin: 0px 30px;
 
 }
-
 .input input{
     height:50px;
     width: 400px;
@@ -64,28 +54,22 @@
     outline: none;
     color: #797979;
     font-size: 19px;
-
 }
-
-
 .forgot-password{
     padding-left: 62px;
     margin-top: 27px;
     color:#797979;
     font-size: 18px;
 }
-
 .forgot-password span{
     color:#4c00b4;
     cursor: pointer;
 }
-
 .submit-container{
     display: flex;
     gap: 30px;
     margin: 60px auto;
 }
-
 .submit{
     display: flex;
     justify-content: center;
@@ -99,9 +83,7 @@
     font-weight: 700;
     cursor: pointer;
 }
-
 .gray{
     background: #EAEAEA;
-    color: #676767;
-    
+    color: #676767;   
 }

@@ -1,44 +1,22 @@
-*
-{
+/* Reset styles for all elements */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.Sid{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:40px;
-    font-weight: bold;
-    color: aliceblue;
-   background-color: black;
-   display: flex
-   
+.images {
+    width: 100%;
+    max-width: 100%;
+    display: block;
 }
-.images{
-    background-image: url("C:\Users\sidhu\Downloads\OneDrive\Documents\GitHub\React_IRC\event\myapp4\src\assets\images\back-1.jpg");
-}
-
-.left{
-    width: 130%;
-    margin-left: 20px;
-    color: red;
-}
-.right{
-    justify-content: center;
-    width:23%;
-    font-size: 25px;
-    margin-top: 11px;
-}
-.right1{
-    width:15%;
-    font-size: 25px;
-    margin-top: 11px;
-}
-.right2{
-    width:15%;
-    font-size: 25px;
-    margin-top: 11px;
-}
-.right:hover,.right1:hover,.right2:hover{
-    color: red;
-    transition: 0.65s;
-    cursor: pointer;
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px;
 }
